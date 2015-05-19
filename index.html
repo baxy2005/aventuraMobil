@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
 </head>
 <body>
-  <header>
+<header>
 <nav class="navbar navbar-default navbar-fixed-top">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -33,16 +33,121 @@
          </div>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="row">
-    	<div class="col-xs-12">
-        	<h1>
-            Aventura Budapest
-            </h1>
+<div class="container-fluid mainTitle">
+	<div class="container paddingLeftRightZero">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>
+                Aventura Budapest
+                </h1>
+                <small class="small">
+                Boutique Hostel and Apartments
+                </small>
+            </div>
         </div>
-    </div>
-</div>
-</header>
+	</div>    
+</div><!-- main title container fluid -->
+</header><!-- header --> 
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12">
+        	<form>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Date of check in</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Number of nights</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+				</div>
+                <button type="submit" class="btn btn-default">Check Price / Book</button>
+        	</form>    
+        </div>
+    </div><!-- form  row --> 
+    <div class="row">
+        <div class="col-xs-12">
+			<h2>About Us</h2>
+			<p>Aventura Boutique Hostel Budapest is a small 4 room family run hostel on the Pest side of Budapest 2 minutes from “Nyugati” metro station and few minutes from Margaret Island. Numerous attractions are within 15-20 min walk, and all kind of facilities are available in the area.</p>
+        </div>
+    </div><!-- about  us --> 
+    <div class="row">
+        <div class="col-xs-12">
+			<h2>Find Us</h2>
+			<p>Aventura Boutique Hostel Budapest is a small 4 room family run hostel on the Pest side of Budapest 2 minutes from “Nyugati” metro station and few minutes from Margaret Island. Numerous attractions are within 15-20 min walk, and all kind of facilities are available in the area.</p>
+        </div>
+    </div><!-- find us -->
+    <div class="row roomsAps">
+        <div class="col-xs-12">
+			<h2>Rooms and Apartments</h2>
+            <p>All of our hostel rooms embrace a different lifestyle, a different culture.  In Aventura Boutique Hostel Budapest we have NO BUNK BEDS! In the hostel dorms, we have intimate lofts, where you can feel like in a separate room.
+            </p>
+            <div class="box africaRoom">
+            	<div id="owl-demo2" class="owl-carousel owl-theme">
+                  <div class="item"><img src="images/aventura-mobil-africa-slide-01.jpg" alt="The Last of us"></div>
+                  <div class="item"><img src="images/aventura-mobil-africa-slide-01.jpg" alt="GTA V"></div>
+                  <div class="item"><img src="images/aventura-mobil-africa-slide-01.jpg" alt="Mirror Edge"></div>
+            	</div>
+                <div class="logo center-block africaLogo">
+                    <div class="price">
+                        <small class="small">
+                        today’s price
+                        </small>
+                        <h4>
+                            <span class="euro">€</span>11
+                        </h4>
+                     </div>   <!-- price --> 
+                </div><!-- logo --> 
+                <div class="describle">
+                	<img src="images/aventura-rooms-people.svg">
+                    <img src="images/aventura-rooms-people.svg">
+                    <img src="images/aventura-rooms-people.svg">
+                    <img src="images/aventura-rooms-people.svg">
+                	<img src="images/aventura-rooms-people.svg">
+                    <img src="images/aventura-rooms-people.svg">
+                    <img src="images/aventura-rooms-people.svg">
+                    <img src="images/aventura-rooms-people.svg">
+                    <h3> mixed dormitory</h3>
+                    <small class="small">with shared bathroom</small>
+                </div>
+                <div class="collapse" id="collapseExample">
+                  <div class="well">
+                    <p class="text-center">
+                      Africa room shows off the adventurous ambience of Africa with giraffe pattern on the wall and a nice dark wooden loft instead of bunk beds. There are 4 beds downstairs on the floor and 4 mattresses on the loft.
+                    </p> 
+						<ul class="nav">
+                            <li>
+                              <img src="images/aventura-africa-room-facilities-wifi.svg" class="img-circle">free wi-fi
+                            </li>
+                            <li>hammock</li>
+                            <li>fan</li>
+                            <li>linen</li>
+                            <li>reading light</li>
+                            <li>lockers</li>
+                         </ul>   
+                  </div>
+                </div>                
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Details
+                </button>
+            </div><!-- africa room ends --> 
+        </div><!-- box ends --> 
+    </div><!-- rooms and apartments -->  
+    <div class="row">
+        <div class="col-xs-12">
+			<h2>Facilities</h2>
+            <ul>
+				<li>friendly and relaxed atmosphere</li>
+                <li>flexible check-in/check-out, no curfew</li>
+                <li>24 hour reception at the hostel</li>
+                <li>English, Spanish, German, Italian, Russian,  
+  Estonian and Bulgarian speaking staff</li>
+                <li>breakfast on request</li>
+                <li>linens included</li>
+                <li>taxes included</li>
+            </ul>        
+        </div>
+    </div><!-- facilities-->      
+</main>   <!-- main container --> 
 <div class="container-fluid bg-darkGray">
   <footer class="container paddingZero">
     <div class="row">
@@ -78,7 +183,7 @@
      <script>
 $(document).ready(function() {
  
-  $("#owl-demo").owlCarousel({
+  $("#owl-demo, #owl-demo2 ").owlCarousel({
  
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,

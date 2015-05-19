@@ -39,11 +39,177 @@
 	margin-top: 60px;	
 }
 
+.paddingLeftRightZero {
+	
+	padding-left: 0px;
+	padding-right:0px;	
+}
+
+/* rooms and apps */
+
+.roomsAps .box {
+	min-height: 424px;
+	border-radius: 15px;
+	color: $color-white;
+}
+.roomsAps .box.africaRoom{
+	background-color: $color-africa !important;	
+	}
+.roomsAps .box.indiaRoom{
+	background-color: $color-india;	
+	}
+.roomsAps .box.spaceRoom{
+	background-color: $color-space;	
+	}
+.roomsAps .box.japanRoom{
+	background-color: $color-japan;	
+	}
+.roomsAps .box.rougeAp{
+	background-color: $color-rouge;	
+	}
+.roomsAps .box.artRetroAp{
+	background-color: $color-artRetro;	
+	}
+.roomsAps .box.familyAp{
+	background-color: $color-family;	
+	}
+
+.roomsAps #owl-demo2 .item {
+		height: 212px;
+
+}
+	#owl-demo2 .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#owl-demo2 .owl-wrapper-outer {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.logo {
+	width: 149px;
+	height: 149px;
+	background-color: #fff;
+	margin-top: -75px;
+	position:relative;
+	text-align: center;
+	border-radius: 80px;
+	z-index: 5;
+	background-size: 149px 149px;
+	background-position: center center;
+	.price {
+	padding-top: 88px;	
+	}
+	h4 {
+		margin-top: -5px;
+		font-size: 29px;
+	}
+	.euro {
+		font-size: 15px;
+		font-weight: lighter;
+	}
+	.small {
+		margin: 0px;
+		padding: 0px;
+		color: $color-lightGray;
+	}
+}
+
+.logo.africaLogo h4 {
+	color: $color-africa;
+}
+.logo.indiaLogo h4 {
+	color: $color-india;
+}
+.logo.spaceLogo h4 {
+	color: $color-space;
+}
+.logo.japanLogo h4 {
+	color: $color-japan;
+}
+.logo.rougeLogo h4 {
+	color: $color-rouge;
+}
+.logo.artLogo h4 {
+	color: $color-artRetro;
+}
+.logo.retroLogo h4 {
+	color: $color-artRetro;
+}
+.logo.familyLogo h4 {
+	color: $color-family;
+}
+
+.logo.africaLogo {
+	background-image: url(../images/aventura-afirca-room-logo.svg)	 
+}
+.logo.indiaLogo {
+	background-image: url(../images/aventura-india-room-logo.svg)	 
+}
+.logo.spaceLogo {
+	background-image: url(../images/aventura-space-room-logo.svg)	 
+}
+.logo.japanLogo {
+	background-image: url(../images/aventura-japan-room-logo.svg)	 
+}
+.logo.rougeLogo {
+	background-image: url(../images/aventura-rouge-room-logo.svg)	 
+}
+.logo.artLogo {
+	background-image: url(../images/aventura-art-room-logo.svg)	 
+}
+.logo.retroLogo {
+	background-image: url(../images/aventura-retro-room-logo.svg)	 
+}
+.logo.familyLogo {
+	background-image: url(../images/aventura-family-room-logo.svg)	 
+}
+
+.describle {
+text-align: center;
+h3 {
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+}
+img {
+	margin-top: 13px;
+	display: inline
+}
+.small {
+	font-size: 13px;
+}
+}	
+
+.well {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	padding: 15px;
+}
+.well ul {
+text-align: center;
+li {
+	display: inline;
+}
+}
+.well img {
+	background-color: rgba( $color-white, .3);
+}	
+
+
+
 /* header */
 
 @media (min-width:  670px) {
 
 .container {
     width: 670px;
+}
+.paddingLeftRightZero {
+	padding-left: 15px;
+	padding-right: 15px;	
+
 }
 }
