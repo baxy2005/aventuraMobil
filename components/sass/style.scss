@@ -233,17 +233,17 @@ label {
 	background-color: $color-family;	
 	}
 
-.roomsAps #owl-demo2 .item {
+.roomsAps #owl-demo2 .item, .roomsAps #owl-demo3 .item, .roomsAps #owl-demo4 .item, .roomsAps #owl-demo5 .item, .roomsAps #owl-demo6 .item, .roomsAps #owl-demo7 .item, .roomsAps #owl-demo8 .item, .roomsAps #owl-demo9 .item {
 		height: 212px;
 
 }
-	#owl-demo2 .item img{
+	#owl-demo2 .item img, #owl-demo3 .item img, #owl-demo4 .item img, #owl-demo5 .item img,#owl-demo6 .item img,#owl-demo7 .item img,#owl-demo8 .item img,#owl-demo9 .item img{
     display: block;
     width: 100%;
     height: auto;
 
 }
-#owl-demo2 .owl-wrapper-outer, .owl-theme, .owl-carousel {
+#owl-demo2 .owl-wrapper-outer, .owl-theme, .owl-carousel, #owl-demo3 .owl-wrapper-outer,#owl-demo4 .owl-wrapper-outer,#owl-demo5 .owl-wrapper-outer,#owl-demo6 .owl-wrapper-outer,#owl-demo7 .owl-wrapper-outer,#owl-demo8 .owl-wrapper-outer,#owl-demo9 .owl-wrapper-outer {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	  z-index: 0;
