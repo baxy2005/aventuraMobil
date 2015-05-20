@@ -51,6 +51,7 @@
 	min-height: 424px;
 	border-radius: 15px;
 	color: $color-white;
+	margin-bottom: 10px;
 }
 .roomsAps .box.africaRoom{
 	background-color: $color-africa !important;	
@@ -154,22 +155,22 @@
 	background-image: url(../images/aventura-japan-room-logo.svg)	 
 }
 .logo.rougeLogo {
-	background-image: url(../images/aventura-rouge-room-logo.svg)	 
+	background-image: url(../images/aventura-rouge-ap-logo.svg)	 
 }
 .logo.artLogo {
-	background-image: url(../images/aventura-art-room-logo.svg)	 
+	background-image: url(../images/aventura-art-ap-logo.svg)	 
 }
 .logo.retroLogo {
-	background-image: url(../images/aventura-retro-room-logo.svg)	 
+	background-image: url(../images/aventura-retro-ap-logo.svg)	 
 }
 .logo.familyLogo {
-	background-image: url(../images/aventura-family-room-logo.svg)	 
+	background-image: url(../images/aventura-family-ap-logo.svg)	 
 }
 
 .describle {
 text-align: center;
 h3 {
-	font-size: 20px;
+	font-size: 22px;
 	margin-bottom: 0px;
 	margin-top: 3px;
 }
@@ -197,9 +198,63 @@ li {
 .well img {
 	background-color: rgba( $color-white, .3);
 }	
+button.btn {
+		width: 100% !important;
+	}
 
-
-
+.facWraper {
+	width: 80px;
+	height: 60px;
+	display:inline-block;
+}
+.well ul.nav {
+padding-right:0 !important;	
+}
+.africaRoom .row, .indiaRoom .row, .spaceRoom .row, .japanRoom .row, .rougeAp .row, .artRetroAp .row, .familyAp .row {
+	margin-right:0;	
+	margin-left:0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.africaRoom .row .col-xs-8, .indiaRoom .row .col-xs-8, .spaceRoom .row .col-xs-8, .japanRoom .row .col-xs-8, .rougeAp .row .col-xs-8, .artRetroAp .row .col-xs-8, .familyAp .row .col-xs-8{
+	padding-right: 7.5px;
+}
+.africaRoom .row .col-xs-4, .indiaRoom .row .col-xs-4, .spaceRoom .row .col-xs-4, .japanRoom .row .col-xs-4, .rougeAp .row .col-xs-4, .artRetroAp .row .col-xs-4, .familyAp .row .col-xs-4{
+	padding-left: 7.5px;
+}
+.africaRoom .btn-default, .indiaRoom .btn-default, .japanRoom .btn-default, .spaceRoom .btn-default, .rougeAp .btn-default, .artRetroAp .btn-default, .familyAp .btn-default  {
+    border: none;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 7px 12px;
+}
+.africaRoom .btn-default {
+	color: $color-africa;
+}
+.indiaRoom .btn-default {
+	color: $color-india;
+}
+.spaceRoom .btn-default {
+	color: $color-space;
+}
+.japanRoom .btn-default {
+	color: $color-japan;
+}
+.rougeAp .btn-default {
+	color: $color-rouge;
+}
+.artRetroAp .btn-default {
+	color: $color-artRetro;
+}
+.familyAp .btn-default {
+	color: $color-family;
+}
+.btn-default.detailsBtn {
+	color: $color-white;
+	background-color: rgba( $color-white, .3);
+	font-weight: normal;
+}
 /* header */
 
 @media (min-width:  670px) {
