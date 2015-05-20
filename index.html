@@ -10,36 +10,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
     <!-- Add jQuery library -->
-	<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
-    <script src="owl-carousel/owl.carousel.js"></script>
-     <script>
-$(document).ready(function() {
- 
-  $("#owl-demo, #owl-demo2, #owl-demo3, #owl-demo4, #owl-demo5, #owl-demo6, #owl-demo7, #owl-demo8, #owl-demo9 ").owlCarousel({
- 
-      navigation : false, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true,
-	  autoPlay : true,
-	  stopOnHover : true,
-	  lazyLoad : true,
-
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
-  });
- 
- 
-});
-	
-    </script>
-
+	<script type="text/javascript" src="lib/jquery-1.9.1.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
 </head>
 <body>
 <header>
@@ -828,6 +800,35 @@ Aventura Boutique Hostel Budapset<br>
     </div>  <!--row-->
   </footer><!--container-->
 </div><!--container fluid-->
+     <script>
+$(document).ready(function() {
+ 
+  $("#owl-demo, #owl-demo2, #owl-demo3, #owl-demo4, #owl-demo5, #owl-demo6, #owl-demo7, #owl-demo8, #owl-demo9 ").owlCarousel({
+ 
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+	  autoPlay : true,
+	  stopOnHover : true,
+	  lazyLoad : true,
+	  
+
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+ 
+});
+	
+    </script>
+
 <script src="js/respond.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
