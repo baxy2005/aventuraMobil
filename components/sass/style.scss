@@ -1,4 +1,16 @@
 /* Scss Document */
+@font-face {
+  font-family: 'HelveticaNeueLT-Com-57-Cn';
+  src: url('../fonts/HelveticaNeueLTCom-Cn.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaNeueLTCom-Cn.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeueLTCom-Cn.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeueLTCom-Cn.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeueLTCom-Cn.svg#1bfe3908464079d33e43d1bde3a33e17') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
  
 @import "compass/css3";
 @import "variables";
@@ -336,6 +348,10 @@ img {
 	border: none;
 	box-shadow: none;
 	padding: 15px;
+	margin-bottom: 0px;
+	p {
+	margin-bottom: 20px;	
+	}
 }
 .well ul {
 text-align: center;
@@ -351,9 +367,15 @@ button.btn {
 	}
 
 .facWraper {
-	width: 80px;
+	width: 70px;
 	height: 60px;
 	display:inline-block;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-family: 'HelveticaNeueLT-Com-57-Cn';
+	p {
+		margin-top: 5px;	
+	}
 }
 .well ul.nav {
 padding-right:0 !important;	
