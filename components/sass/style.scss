@@ -157,7 +157,7 @@ label {
 }
 
 /* owl carusel */
-#owl-demo .item, #owl-demo-2 .item, #owl-demo-3 .item{
+.owl-demo .item, #owl-demo-2 .item, #owl-demo-3 .item{
         padding: 0px;
         color: $color-primary;
         text-align: center;
@@ -237,13 +237,13 @@ label {
 		height: 212px;
 
 }
-	#owl-demo2 .item img, #owl-demo3 .item img, #owl-demo4 .item img, #owl-demo5 .item img,#owl-demo6 .item img,#owl-demo7 .item img,#owl-demo8 .item img,#owl-demo9 .item img{
+	.owl-demo .item img, #owl-demo3 .item img, #owl-demo4 .item img, #owl-demo5 .item img,#owl-demo6 .item img,#owl-demo7 .item img,#owl-demo8 .item img,#owl-demo9 .item img{
     display: block;
     width: 100%;
     height: auto;
 
 }
-#owl-demo2 .owl-wrapper-outer, .owl-theme, .owl-carousel, #owl-demo3 .owl-wrapper-outer,#owl-demo4 .owl-wrapper-outer,#owl-demo5 .owl-wrapper-outer,#owl-demo6 .owl-wrapper-outer,#owl-demo7 .owl-wrapper-outer,#owl-demo8 .owl-wrapper-outer,#owl-demo9 .owl-wrapper-outer {
+.owl-demo .owl-wrapper-outer, .owl-theme, .owl-carousel, #owl-demo3 .owl-wrapper-outer,#owl-demo4 .owl-wrapper-outer,#owl-demo5 .owl-wrapper-outer,#owl-demo6 .owl-wrapper-outer,#owl-demo7 .owl-wrapper-outer,#owl-demo8 .owl-wrapper-outer,#owl-demo9 .owl-wrapper-outer {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	  z-index: 0;
