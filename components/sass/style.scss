@@ -248,6 +248,13 @@ label {
 	border-top-right-radius: 15px;
 	  z-index: 0;
 }
+#owl-demo {
+	border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+.bg-greenTwo {
+	background-color: $color-primary;
+}	
 .logo {
 	width: 149px;
 	height: 149px;
@@ -265,6 +272,7 @@ label {
 	h4 {
 		margin-top: -5px;
 		font-size: 29px;
+		font-weight: bold;
 	}
 	.euro {
 		font-size: 15px;
@@ -430,19 +438,13 @@ padding-right:0 !important;
 /* find us*/
 .map {
 	border-radius: 15px;
-	min-height: 290px;
+	min-height: 180px;
 }
 /* facilities*/
 .glyphicon-ok {
 	color: $color-primary;
-	margin-right: 5px;
+	margin-right: 10px;
 	margin-left: 5px;
-}
-.facilities li {
-border-radius: 8px;
-border: #ccc solid 1px;
-padding: 3px;
-margin-bottom: 3px;
 }
 .facilities .nav {
 	padding-right: 0px;
