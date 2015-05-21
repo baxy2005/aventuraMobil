@@ -349,9 +349,10 @@ img {
 	box-shadow: none;
 	padding: 15px;
 	margin-bottom: 0px;
+	padding-bottom: 0px;
 	p {
 	margin-bottom: 20px;	
-	}
+		}
 }
 .well ul {
 text-align: center;
@@ -368,13 +369,14 @@ button.btn {
 
 .facWraper {
 	width: 70px;
-	height: 60px;
+	height: auto;
 	display:inline-block;
 	margin-bottom: 0;
 	font-size: 12px;
 	font-family: 'HelveticaNeueLT-Com-57-Cn';
 	p {
 		margin-top: 5px;	
+		margin-bottom: 10px;
 	}
 }
 .well ul.nav {
