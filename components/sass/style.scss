@@ -75,20 +75,25 @@ p {
 		background-repeat:no-repeat !important;
 		width: 40px;
 		margin-right: 10px;
+		background-size: 164px 42px;
 	}
 	
 	li.phone {
-		background:url(../images/aventura-mobil-navIcon-phone.svg);
+		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
+		background-position: -1px center; 	
 	}
 	li.skype {
-		background:url(../images/aventura-mobil-navIcon-skype.svg);
+		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
+		background-position: -41px center; 	
 	}
 	li.email {
-		background:url(../images/aventura-mobil-navIcon-email.svg);
+		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
 		margin-right: 2px;
+		background-position: -82px center; 	
 	}
 	li.google {
-		background:url(../images/aventura-mobil-navIcon-google.svg);
+		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
+		background-position: -123px center; 	
 	}
 }
 /* title*/
@@ -243,29 +248,51 @@ label {
     height: auto;
 
 }
-.owl-demo .owl-wrapper-outer, .owl-theme, .owl-carousel, #owl-demo3 .owl-wrapper-outer,#owl-demo4 .owl-wrapper-outer,#owl-demo5 .owl-wrapper-outer,#owl-demo6 .owl-wrapper-outer,#owl-demo7 .owl-wrapper-outer,#owl-demo8 .owl-wrapper-outer,#owl-demo9 .owl-wrapper-outer {
+.owl-item .item img {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	  z-index: 0;
+
+}
+
+.owl-demo, .owl-theme, .owl-carousel {
+	 border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	  
+	
+}
+.roomsAps .owl-wrapper-outer {
+	border-top-left-radius: 15px !important;
+	border-top-right-radius: 15px!important;
+	z-index: 0;
+}
+.roomsAps .boxCorner{
+	background: url(../images/aventura-corner-left.svg) left top no-repeat, url(../images/aventura-corner-right.svg) right top no-repeat;
+	z-index: 2;
+	position: absolute;
+	height: 16px;
+	width: 100%;;
+	display:table;
+	padding: 15px;
 }
 #owl-demo {
-	border-top-left-radius: 0px;
+border-top-left-radius: 0px;
 border-top-right-radius: 0px;
 }
 .bg-greenTwo {
 	background-color: $color-primary;
 }	
 .logo {
-	width: 149px;
-	height: 149px;
+	width: 150px;
+	height: 150px;
 	background-color: #fff;
 	margin-top: -75px;
 	position:relative;
 	text-align: center;
 	border-radius: 80px;
 	z-index: 5;
-	background-size: 149px 149px;
-	background-position: center center;
+	background-size: 1184px 149px;
+
+	
 	.price {
 	padding-top: 88px;	
 	}
@@ -311,28 +338,36 @@ border-top-right-radius: 0px;
 }
 
 .logo.africaLogo {
-	background-image: url(../images/aventura-afirca-room-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
+	background-position: 1px center; 
 }
 .logo.indiaLogo {
-	background-image: url(../images/aventura-india-room-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg)	;
+	background-position: -147px center;  
 }
 .logo.spaceLogo {
-	background-image: url(../images/aventura-space-room-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
+	background-position: -443px center; 	 
 }
 .logo.japanLogo {
-	background-image: url(../images/aventura-japan-room-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);	
+	background-position: -295px center;  
 }
 .logo.rougeLogo {
-	background-image: url(../images/aventura-rouge-ap-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
+	background-position: -591px center;	 
 }
 .logo.artLogo {
-	background-image: url(../images/aventura-art-ap-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
+	background-position: -739px center;	 	 
 }
 .logo.retroLogo {
-	background-image: url(../images/aventura-retro-ap-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);	
+	background-position: -887px center;	  
 }
 .logo.familyLogo {
-	background-image: url(../images/aventura-family-ap-logo.svg)	 
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);	
+	background-position: -1035px center; 
 }
 
 .describle {
@@ -495,24 +530,29 @@ padding-right:0 !important;
 		background-color: transparent;
 	}
 	ul li.facebook {
-		background-image: url(../images/aventura-mobil-footer-social-facebook.svg);	
+		background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);	
 		background-color: #3B5A99;
+		background-position: 0px center;
 	}
 	ul li.twitter {
-		background-image: url(../images/aventura-mobil-footer-social-twitter.svg);
+		background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
 		background-color: #4FD6FA;
+		background-position: -39px center;
 	}
 	ul li.pinterest {
-		background-image: url(../images/aventura-mobil-footer-social-pinterest.svg);
+		background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
 		background-color: #CC2127;
+		background-position: -79px center;
 	}
 	ul li.tripadvisor {
-		background-image: url(../images/aventura-mobil-footer-social-tripadvisor.svg);
+		background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
 		background-color: #4C8B38;
+		background-position: -117px center;
 	}
 	ul li.googlePlus {
-		background-image: url(../images/aventura-mobil-footer-social-googlePlus.svg);
+		background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
 		background-color: #DD4B39;
+		background-position: -156px center;
 	}
 
 	.nav {
