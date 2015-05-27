@@ -274,7 +274,7 @@ label {
 	display:table;
 	padding: 15px;
 }
-#owl-demo {
+#owl-demo, #owl-demo .owl-item .item img {
 border-top-left-radius: 0px;
 border-top-right-radius: 0px;
 }
@@ -474,7 +474,22 @@ padding-right:0 !important;
 .map {
 	border-radius: 15px;
 	min-height: 180px;
+	margin-top: 7px;
 }
+.directionExtra {
+	position: relative;
+	margin: -28px 0 0 125px;
+	font-size: 13px;
+	text-align: right;
+	a{
+		color: $color-darkGray;
+		padding-left: 5px;
+	&:hover {
+		text-decoration: none;
+	}
+	}
+}
+
 /* facilities*/
 .glyphicon-ok {
 	color: $color-primary;
