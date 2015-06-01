@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>aventura-rooms-baby</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="aventura-rooms-baby" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <path d="M5.55833333,6.752 C5.55833333,5.232 4.30972222,4 2.77916667,4 C1.99777778,4 1.29694444,4.312 0.7975,4.824 C0.306111111,5.32 1.05019612e-13,6 1.04973565e-13,6.752 C1.04894208e-13,8.048 0.902222222,9.128 2.11861111,9.424 C2.32805556,9.472 2.54555556,9.504 2.77916667,9.504 C4.30972222,9.504 5.55833333,8.272 5.55833333,6.752 L5.55833333,6.752 Z" id="Imported-Layers-4" sketch:type="MSShapeGroup"></path>
+            <path d="M16.25,9.596 L16.25,3.404 C16.25,1.804 14.7144928,0.5 12.8210145,0.5 L9.75,0.5 L9.75,12.5 L12.8210145,12.5 C14.7144928,12.5 16.25,11.196 16.25,9.596 L16.25,9.596 Z" id="Imported-Layers-4-Copy" sketch:type="MSShapeGroup"></path>
+            <path d="M6.75,3.404 L6.75,9.596 C6.75,11.196 8.28550725,12.5 10.1789855,12.5 L13.25,12.5 L13.25,0.5 L10.1789855,0.5 C8.28550725,0.5 6.75,1.804 6.75,3.404 L6.75,3.404 Z" id="Imported-Layers-4-Copy-2" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

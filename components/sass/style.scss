@@ -210,6 +210,12 @@ label {
 
 /* rooms and apps */
 
+.artRetroAp .glyphicon, .familyAp .glyphicon{
+	top: 8px;
+	font-size: 11px;
+	color: rgba( $color-white, .6);
+}
+
 .roomsAps .box {
 	min-height: 424px;
 	border-radius: 15px;
@@ -411,7 +417,7 @@ button.btn {
 	}
 
 .facWraper {
-	width: 70px;
+	width: 78px;
 	height: auto;
 	display:inline-block;
 	margin-bottom: 0;
@@ -478,17 +484,28 @@ padding-right:0 !important;
 }
 .directionExtra {
 	position: relative;
-	margin: -28px 0 0 125px;
+	margin: -28px 0 0 0;
 	font-size: 13px;
 	text-align: right;
 	a{
-		color: $color-darkGray;
-		padding-left: 5px;
+		color: $color-primary;
+		padding-left: 15px;
 	&:hover {
 		text-decoration: none;
 	}
 	}
 }
+
+/* about us*/
+.about .well {
+
+	padding: 0;
+}
+.about .btn-form {
+
+	margin-top: 10px;
+}
+
 
 /* facilities*/
 .glyphicon-ok {
