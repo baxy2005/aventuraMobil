@@ -38,6 +38,107 @@ p {
 	margin-bottom: 0px !important;	
 }
 
+/*discount*/
+.discount-box {
+	width: 100%;
+	height: 260px;
+	background-color: #8DC644;
+	border-radius: 12px;
+	background-image: url(../images/aventura-discounts-bg.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 143px 143px;
+	text-align: center;
+	margin-bottom: 5px;
+	
+}
+ .discount-box h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #FFFFFF;
+line-height: 22px;	
+font-weight: normal;
+text-align: center;
+padding-top: 7px;
+}
+
+.packages .discount {
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.packages .discount h3 {
+	font-size: 72px;
+	font-weight: bold;
+	letter-spacing: 0em;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	color:  $color-primary;
+	margin:0;
+}
+
+.packages .discount span {
+	font-size: 24px;
+	font-weight: lighter;
+	letter-spacing: 0em;
+
+}
+.packages .discount h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 0em;
+	color: #8DC644;
+	margin-top: -8px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.packages .discount  p {
+	font-size: 13px;	
+	color: #8DC644;
+	font-family: HelveticaNeueLT-Com-57-Cn, sans-serif;
+	margin-top: -12px;
+}
+
+.discount-box .btn, .discount-box-back .btn{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-moz-user-select: none;
+}
+
+.discount-box .btn-default, .discount-box-back .btn-default {
+    border: medium none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 6px 22px;
+	background-color: rgba(255, 255, 255, 0.24);
+	color: white;
+	position: relative;
+top: 30px;
+width: 80% !important;}
+
+
+
+	
+	
+.extras {
+margin-top: 20px;	
+}
+		
+.discount-box-back .btn-default {
+	top: 5px;	
+}
+
+
+
+
 /* header*/
 .navbar {
     min-height: 60px;
@@ -183,7 +284,14 @@ label {
     margin-left: 7px;
 }
 
-
+.owl-controls .owl-dot span {
+	background: rgba( $color-white, .4) !important;
+	
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{
+	background: rgba( $color-white, .9) !important;
+	
+}
 .owl-theme .owl-controls .owl-page span{
 	display: block;
 	width: 12px;
@@ -271,7 +379,7 @@ label {
 	border-top-right-radius: 15px!important;
 	z-index: 0;
 }
-.roomsAps .boxCorner{
+.roomsAps .boxCorner, .packages .boxCorner{
 	background: url(../images/aventura-corner-left.svg) left top no-repeat, url(../images/aventura-corner-right.svg) right top no-repeat;
 	z-index: 2;
 	position: absolute;
